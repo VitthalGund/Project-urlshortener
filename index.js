@@ -20,6 +20,7 @@ db.once('open', function () {
   console.log("Connected to database.");
 });
 
+
 const Schema = mongoose.Schema;
 const urlSchema = new Schema({
   original_url: String,
